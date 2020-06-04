@@ -33,11 +33,16 @@ function decodeCredential() {
 
 ------------
 
-1.  put email 
-2. put password
+1. type your email 
+2. type your password
 3. click on generate
+4. get your credential and use in your api
 
 
 [![Create a credential](http://alessandrodev.com/imagens/credential.jpg "Create a credential")](https://alessandrolmenezes.github.io/criptografia/index.html "Create a credential")
+
+------------
+
+[![Decode a credential](http://alessandrodev.com/imagens/credential2.jpg "Decode a credential")](https://alessandrolmenezes.github.io/criptografia/index.html "Decode a credential")
 
 
