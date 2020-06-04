@@ -11,6 +11,16 @@
 
 [Try clicking here](https://alessandrolmenezes.github.io/criptografia/index.html "Try Here")
 
+#### Install CryptoJS on nodeJS
+
+`npm install crypto-js`
+
+#### Use CryptoJS on client
+
+`<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>`
+
+`<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/aes.min.js"></script>`
+
 ```javascript
 function generateCredential() {
   let user = { email: userName.value, password: password.value };
