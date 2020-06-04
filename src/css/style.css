@@ -1,0 +1,11 @@
+    .size {
+      min-width: 100%;
+      margin: 1vh 0;
+    }
+
+    #code,
+    #decoded {
+      background-color: #ededed;
+      padding: 1%;
+      margin-top: 1vh;
+    }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Credential</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/aes.min.js"></script>
+  <link rel='stylesheet' href='./src/css/style.css' />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="container">
+  <header>
+    <br>
+    <h1>Create a credential to login</h1>
+  </header>
+  <div class="form-row">
+    <div class="col">
+      <label for="credential">Email</label><br>
+      <input type="text" name="name" id="name" class="size" placeholder="mail@domain.com">
+    </div>
+    
+    <div class="col">
+      <label for="credential">Password</label><br>
+      <input type="text" name="password" id="password" class="size" placeholder="*******">
+    </div>
+  </div>
+  <div>
+    <label for="credential">Your credential is:</label><br>
+    <textarea name="credential" id="credential" class="size" rows="4" readonly disabled></textarea>
+  </div>
+  <input type="button" value="Generate" id="btn-generate" class="btn btn-primary size">
+  <div>
+    <p>Put this credential in headers on method POST like exemple bellow:</p>
+    <code id="code"></code>
+  </div>
+  <br>
+  <hr>
+  <br>
+  <div>
+    <h1>Decode your credential</h1>
+    <div>
+      <label for="credential">Your credential here:</label><br>
+      <textarea name="credential2" id="credential2" class="size" rows="1"></textarea>
+    </div>
+    <input type="button" value="Decode" id="btn-decode" class="btn btn-primary size">
+    <p>The result is:</p>
+    <code id="decoded"></code>
+  </div>
+  <br>
+  <cite>https://cryptojs.gitbook.io/docs/</cite>
+  <p>check the font</p>
+  <br>
+  <script src="./src/js/createCredentials.js"></script>
+</body>
+</html>
